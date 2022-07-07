@@ -1,9 +1,9 @@
+# import packages
 import sys
 sys.modules['apex']=None
 import os
 os.environ["CUDA_VISIBLE_DEVICES"] = "0,1,2,3,4,5,6,7,8"
 os.environ["TOKENIZERS_PARALLELISM"] = "true"
-# os.environ["CUDA_LAUNCH_BLOCKING"] = "1"
 import json
 import torch
 from transformers import pipeline
@@ -28,6 +28,7 @@ from onnx_helper import generate, generate_with_io_binding
 from collections import Counter
 from tqdm.auto import tqdm
 
+# set inference model path
 NUM_GPU = 8
 tokenizer_path = "./onnx_models/tokenizer"
 encoder_model_paths = [
@@ -43,6 +44,7 @@ decoder_model_paths = [
     "./onnx_models/f3_best/checkpoint-2750_decoder.onnx",
 ]
 
+# load model to GPU
 tokenizer = AutoTokenizer.from_pretrained(tokenizer_path, use_fast=True)
 gpu_models = []
 for i_gpu in tqdm(range(NUM_GPU)):
@@ -95,13 +97,15 @@ def predict(sentence_list, phoneme_sequence_list):
     @returns:
         prediction (str): a sentence.
     """
-
+    
+    # select witch GPU to use for inference
     global i_call
     i_cuda = i_call % 8
 
     input_text = '</s>'.join(sentence_list).replace(' ', '')
     
-    
+    # if length of first sentence small than 12, use ensemble prediction,
+    # otherwise use single model prediction
     if len(sentence_list[0].replace(' ', '')) <= 12:
         i_call += 4
         
@@ -182,7 +186,8 @@ def inference():
 
     now = datetime.datetime.now() + datetime.timedelta(hours=8)
     dt_string = now.strftime("%Y%m%d_%H%M%S_%f")
-
+    
+    # save predictions to log
     with open(f'day1_log/{dt_string}.json', 'w', encoding='utf-8') as file:
         json.dump(response_record, file, ensure_ascii=False, indent=4)
 
