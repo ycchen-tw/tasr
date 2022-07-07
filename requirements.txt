@@ -1,0 +1,355 @@
+absl-py==1.0.0
+addict==2.4.0
+aiohttp==3.8.1
+aiosignal==1.2.0
+albumentations==1.1.0
+altair==4.2.0
+antlr4-python3-runtime==4.9.3
+anyio==3.5.0
+apache-beam==2.39.0
+apex==0.1
+argon2-cffi==21.3.0
+argon2-cffi-bindings==21.2.0
+astor==0.8.1
+astunparse==1.6.3
+async-timeout==4.0.2
+attrdict==2.0.1
+attrs==21.4.0
+Babel==2.10.1
+backcall @ file:///home/ktietz/src/ci/backcall_1611930011877/work
+backports.zoneinfo==0.2.1
+bce-python-sdk==0.8.64
+beautifulsoup4 @ file:///tmp/build/80754af9/beautifulsoup4_1631874778482/work
+bleach==5.0.0
+blinker==1.4
+brotlipy==0.7.0
+cachetools==5.0.0
+certifi==2021.10.8
+cffi @ file:///opt/conda/conda-bld/cffi_1642701102775/work
+cfgv==3.3.1
+chardet @ file:///tmp/build/80754af9/chardet_1607706746162/work
+charset-normalizer @ file:///tmp/build/80754af9/charset-normalizer_1630003229654/work
+chex==0.1.3
+click==8.0.4
+cloudpickle==2.1.0
+cn2an==0.5.17
+colorama==0.4.4
+coloredlogs==15.0.1
+conda==4.11.0
+conda-build==3.21.7
+conda-content-trust @ file:///tmp/build/80754af9/conda-content-trust_1617045594566/work
+conda-package-handling @ file:///tmp/build/80754af9/conda-package-handling_1618262148928/work
+cosine-annealing-warmup @ git+https://github.com/katsura-jp/pytorch-cosine-annealing-with-warmup@2958117072f214dce743f918d6a2253f682ab65d
+crcmod==1.7
+cryptography @ file:///tmp/build/80754af9/cryptography_1639400846433/work
+cssselect==1.1.0
+cssutils==2.4.0
+cycler==0.11.0
+Cython==0.29.30
+dataclasses==0.6
+datasets==2.3.0
+debugpy==1.6.0
+decorator @ file:///opt/conda/conda-bld/decorator_1643638310831/work
+deepspeed==0.6.5
+defusedxml==0.7.1
+deprecation==2.1.0
+dill==0.3.5.1
+dimsim==0.2.2
+distlib==0.3.4
+dm-tree==0.1.7
+dnspython==2.2.1
+docker-pycreds==0.4.0
+docopt==0.6.2
+editdistance==0.6.0
+efficientnet==1.0.0
+efficientnet-pytorch==0.6.3
+einops==0.4.1
+ensemble-boxes==1.0.9
+entrypoints==0.4
+et-xmlfile==1.1.0
+fairscale==0.4.6
+fairseq==0.10.2
+fastavro==1.4.12
+fastjsonschema==2.15.3
+filelock @ file:///opt/conda/conda-bld/filelock_1642510437405/work
+flake8==4.0.1
+Flask==2.1.2
+Flask-Babel==2.0.0
+flatbuffers==1.12
+flax==0.5.0
+fonttools==4.33.3
+frozenlist==1.3.0
+fsspec==2022.3.0
+future==0.18.2
+gast==0.4.0
+gitdb==4.0.9
+GitPython==3.1.27
+glob2 @ file:///home/linux1/recipes/ci/glob2_1610991677669/work
+google-auth==2.6.6
+google-auth-oauthlib==0.4.6
+google-pasta==0.2.0
+grpcio==1.46.0
+h5py==3.6.0
+hdfs==2.7.0
+hjson==3.0.2
+httplib2==0.19.1
+huggingface-hub==0.5.1
+humanfriendly==10.0
+hydra-core==1.2.0
+identify==2.5.0
+idna @ file:///tmp/build/80754af9/idna_1637925883363/work
+image-classifiers==1.0.0
+imageio==2.19.1
+imgaug==0.4.0
+importlib-metadata==4.11.3
+importlib-resources==5.7.1
+ipykernel==6.13.0
+ipython @ file:///tmp/build/80754af9/ipython_1643818147236/work
+ipython-genutils==0.2.0
+ipywidgets==7.7.0
+itsdangerous==2.1.2
+jax==0.3.13
+jaxlib==0.3.10+cuda11.cudnn82
+jedi @ file:///tmp/build/80754af9/jedi_1644315233700/work
+Jinja2==3.1.2
+jiwer==2.3.0
+joblib==1.1.0
+json5==0.9.8
+jsonschema==4.5.1
+jupyter==1.0.0
+jupyter-client==7.3.1
+jupyter-console==6.4.3
+jupyter-contrib-core==0.3.3
+jupyter-contrib-nbextensions==0.5.1
+jupyter-core==4.10.0
+jupyter-highlight-selected-word==0.2.0
+jupyter-latex-envs==1.4.6
+jupyter-nbextensions-configurator==0.4.1
+jupyter-packaging==0.12.0
+jupyter-server==1.17.0
+jupyterlab==3.4.0
+jupyterlab-pygments==0.2.2
+jupyterlab-server==2.13.0
+jupyterlab-widgets==1.1.0
+keras==2.9.0
+Keras-Applications==1.0.8
+Keras-Preprocessing==1.1.2
+kiwisolver==1.4.2
+libarchive-c @ file:///tmp/build/80754af9/python-libarchive-c_1617780486945/work
+libclang==14.0.1
+lightning-bolts==0.5.0
+line-profiler==3.5.1
+llvmlite==0.38.0
+lmdb==1.3.0
+lxml==4.8.0
+Markdown==3.3.7
+MarkupSafe @ file:///tmp/build/80754af9/markupsafe_1621528148836/work
+matplotlib==3.5.2
+matplotlib-inline @ file:///tmp/build/80754af9/matplotlib-inline_1628242447089/work
+mccabe==0.6.1
+mistune==0.8.4
+mkl-fft==1.3.1
+mkl-random @ file:///tmp/build/80754af9/mkl_random_1626186064646/work
+mkl-service==2.4.0
+mmcls==0.23.0
+# Editable install with no version control (mmcv-full==1.3.9)
+-e /pt110/develops/Kaggle/Aicup_LungCancer/obj/PyCenterNet/code/mmcv
+# Editable install with no version control (mmdet==2.11.0)
+-e /pt110/develops/Kaggle/Aicup_LungCancer/obj/PyCenterNet/code
+# Editable install with no version control (mmpycocotools==12.0.3)
+-e /pt110/develops/Kaggle/Aicup_LungCancer/obj/PyCenterNet/code/mmpycocotools
+# Editable Git install with no remote (mmsegmentation==0.24.1)
+-e /pt110/develops/Kaggle/Aicup_LungCancer/seg/mmsegmentation
+mpi4py==3.1.3
+mpmath==1.2.1
+msgpack==1.0.3
+multidict==6.0.2
+multiprocess==0.70.12.2
+MultiScaleDeformableAttention==1.0
+munch==2.5.0
+mwparserfromhell==0.6.4
+nbclassic==0.3.7
+nbclient==0.6.3
+nbconvert==6.5.0
+nbformat==5.4.0
+nest-asyncio==1.5.5
+networkx==2.8
+ninja==1.10.2.3
+nodeenv==1.6.0
+notebook==6.4.11
+notebook-shim==0.1.0
+numba==0.55.2
+numpy @ file:///tmp/build/80754af9/numpy_and_numpy_base_1634095647912/work
+nvidia-cublas-cu11==2022.4.8
+nvidia-cublas-cu117==11.10.1.25
+nvidia-cuda-runtime-cu11==2022.4.25
+nvidia-cuda-runtime-cu117==11.7.60
+nvidia-cudnn-cu11==2022.5.19
+nvidia-cudnn-cu116==8.4.0.27
+nvidia-pyindex==1.0.9
+nvidia-tensorrt==8.4.0.6
+oauthlib==3.2.0
+omegaconf==2.2.2
+onnx==1.11.0
+onnx-graphsurgeon==0.3.19
+onnxruntime-gpu==1.11.1
+open3d==0.15.2
+OpenCC==1.1.4
+opencv-contrib-python==4.4.0.46
+opencv-python==4.5.5.64
+opencv-python-headless==4.5.5.64
+openpyxl==3.0.10
+opt-einsum==3.3.0
+optax==0.1.2
+orjson==3.6.8
+packaging==21.3
+paddle-bfloat==0.1.2
+paddleocr==2.5.0.3
+paddlepaddle-gpu==2.3.0.post112
+pandas==1.4.2
+pandocfilters==1.5.0
+parso @ file:///opt/conda/conda-bld/parso_1641458642106/work
+pathtools==0.1.2
+pexpect @ file:///tmp/build/80754af9/pexpect_1605563209008/work
+pickleshare @ file:///tmp/build/80754af9/pickleshare_1606932040724/work
+Pillow==9.0.1
+pkginfo @ file:///tmp/build/80754af9/pkginfo_1643162084911/work
+platformdirs==2.5.2
+polygraphy==0.36.2
+portalocker==2.4.0
+pre-commit==2.19.0
+premailer==3.10.0
+pretrainedmodels==0.7.4
+prettytable==3.3.0
+proces==0.1.2
+progress==1.6
+prometheus-client==0.14.1
+promise==2.3
+prompt-toolkit @ file:///tmp/build/80754af9/prompt-toolkit_1633440160888/work
+proto-plus==1.20.5
+protobuf==3.20.1
+psutil @ file:///tmp/build/80754af9/psutil_1612298023621/work
+ptyprocess @ file:///tmp/build/80754af9/ptyprocess_1609355006118/work/dist/ptyprocess-0.7.0-py2.py3-none-any.whl
+py-cpuinfo==8.0.0
+pyarrow==7.0.0
+pyasn1==0.4.8
+pyasn1-modules==0.2.8
+pyclipper==1.3.0.post2
+pycodestyle==2.8.0
+pycosat==0.6.3
+pycparser @ file:///tmp/build/80754af9/pycparser_1636541352034/work
+pycryptodome==3.14.1
+pydeck==0.7.1
+pyDeprecate==0.3.2
+pydot==1.4.2
+pyflakes==2.4.0
+Pygments @ file:///opt/conda/conda-bld/pygments_1644249106324/work
+pymongo==3.12.3
+Pympler==1.0.1
+pyOpenSSL @ file:///tmp/build/80754af9/pyopenssl_1635333100036/work
+pyparsing==2.4.7
+pypinyin==0.46.0
+pyquaternion==0.9.9
+pyrsistent==0.18.1
+PySocks @ file:///tmp/build/80754af9/pysocks_1605305779399/work
+python-dateutil==2.8.2
+python-etcd==0.4.5
+python-Levenshtein==0.12.2
+pytorch-lightning==1.6.4
+pytorch-loss==0.0.0
+pytz==2021.3
+pytz-deprecation-shim==0.1.0.post0
+PyWavelets==1.3.0
+PyYAML==6.0
+pyzmq==22.3.0
+qtconsole==5.3.0
+QtPy==2.1.0
+qudida==0.0.4
+regex==2022.4.24
+requests @ file:///opt/conda/conda-bld/requests_1641824580448/work
+requests-oauthlib==1.3.1
+responses==0.18.0
+rsa==4.8
+ruamel-yaml-conda @ file:///tmp/build/80754af9/ruamel_yaml_1616016699510/work
+ruamel.yaml==0.17.21
+ruamel.yaml.clib==0.2.6
+sacrebleu==2.1.0
+sacremoses==0.0.53
+scikit-image==0.19.2
+scikit-learn==1.0.2
+scikit-plot==0.3.7
+scipy==1.8.0
+seaborn==0.11.2
+segmentation-models-pytorch @ git+https://github.com/qubvel/segmentation_models.pytorch@740dab561ccf54a9ae4bb5bda3b8b18df3790025
+semver==2.13.0
+Send2Trash==1.8.0
+sentencepiece==0.1.96
+sentry-sdk==1.5.11
+seqeval==1.2.2
+setproctitle==1.2.3
+Shapely==1.8.2
+shellcheck-py==0.8.0.4
+shortuuid==1.0.9
+# Editable Git install with no remote (simpletransformers==0.63.6)
+-e /pt110/develops/Kaggle/tbrain_asr/simpletransformers
+six @ file:///tmp/build/80754af9/six_1623709665295/work
+sklearn==0.0
+smmap==5.0.0
+sniffio==1.2.0
+soupsieve @ file:///tmp/build/80754af9/soupsieve_1636706018808/work
+streamlit==1.9.0
+sympy==1.10.1
+tabulate==0.8.9
+tensorboard==2.9.0
+tensorboard-data-server==0.6.1
+tensorboard-plugin-wit==1.8.1
+tensorboardX==2.5
+tensorflow==2.9.0
+tensorflow-estimator==2.9.0
+tensorflow-io-gcs-filesystem==0.26.0
+termcolor==1.1.0
+terminado==0.13.3
+terminaltables==3.1.10
+threadpoolctl==3.1.0
+tifffile==2022.5.4
+timm @ git+https://github.com/rwightman/pytorch-image-models@fd360ac951a179474917f4b2d21db8669bf87f68
+tinycss2==1.1.1
+tokenizers==0.12.1
+toml==0.10.2
+tomlkit==0.10.2
+toolz==0.11.2
+torch==1.11.0+cu113
+torchaudio==0.11.0+cu113
+torchelastic==0.2.2
+torchinfo==1.6.6
+torchmetrics==0.8.2
+torchtext==0.12.0
+torchvision==0.12.0+cu113
+tornado==6.1
+tqdm @ file:///tmp/build/80754af9/tqdm_1635330843403/work
+traitlets @ file:///tmp/build/80754af9/traitlets_1636710298902/work
+transformers==4.20.0
+ttach==0.0.3
+typing_extensions==4.2.0
+tzdata==2022.1
+tzlocal==4.2
+urllib3==1.26.7
+validators==0.19.0
+virtualenv==20.14.1
+visualdl==2.2.3
+wandb==0.12.18
+watchdog==2.1.8
+wcwidth @ file:///Users/ktietz/demo/mc3/conda-bld/wcwidth_1629357192024/work
+webencodings==0.5.1
+websocket-client==1.3.2
+Werkzeug==2.1.2
+widgetsnbextension==3.6.0
+wordcloud==1.8.1
+wrapt==1.14.1
+xlrd==2.0.1
+xmltodict==0.13.0
+xxhash==3.0.0
+yapf==0.32.0
+yarl==1.7.2
+zhconv==1.4.3
+zipp==3.8.0
